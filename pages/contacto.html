@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En este apartado queremos que te pongas en contacto con nosotros, te dejamos nuestras redes sociales, facebook e instagran para que vayas enterandote de todas las novedades viajeras">
+   <meta name="keywords"  content="CONTACTO, REDES SOCIALES, ESCRIBIR, LEER, VIAJAR, ESTAR CERCA">
+    <title>Contacto Partiendo al encuentro. Blog de viajes y gastronomia</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/descarga.ico"/>
+    <!-- fuente elegida -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Praise&family=Roboto:wght@700&family=Yuji+Syuku&display=swap" rel="stylesheet"> 
+    <!-- HOJA DE ESTILO BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- HOJA DE ESTILO CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+</head>
+<body id="grad">
+ 
+<!-- comienzo encabezado, header menu de navegacion y demas. Esta replicado del index y se le añadio el inicio para volver a la pagina principal -->
+<header class="headerContainer mediaHeader">
+    <!-- logo 1, titulo, subtitulo y logo 2 -->
+    <div class="mediaLogouno">
+        <a href="../index.html"><img class="headerLogouno mediaImglogouno" src="../root/assets/img/logo sin fondo letras blancas.png" alt="logo pagina"></a>
+    </div>
+             
+    <div class="center">
+        <h1 class="headerTitulo">PARTIENDO AL ENCUENTRO</h1>
+        <h3 class="headerSubtitulo">Viajando a través de la gastronomía</h3>
+    </div>
+
+    <div>
+        <a href="../index.html"><img class="headerLogodos" src="../root/assets/img/imagen combi sin fondo.png" alt="dibujo combi"></a>
+
+    </div>
+        
+
+        <!-- fin de logos, titulo, subtitulo y header -->
+        <!-- COMIENZO BARRA DE NAVEGACION -->
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid">
+                
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Menunavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="Menunavegacion" class="collapse navbar-collapse">
+                    <ul id="efecthover" class="menuNavegacion navbar-nav ms-3">
+                        <li class="nav-item"><a href='../index.html' title="Blog de viajes"><span>Blog de viajes</span></a></li>
+                        <li class="nav-item"><a href='sobre-nosotros.html' title="SOBRE NOSOTROS"><span>SOBRE NOSOTROS</span></a></li>
+    
+                        <li class="nav-item"><a href="nuestroproyecto.html" title="NUESTRO PROYECTO"><span>NUESTRO PROYECTO</span></a></li>
+    
+                        <li class="nav-item"><a href="estuvimos-en.html" title="ESTUVIMOS EN"><span>ESTUVIMOS EN</span></a></li>
+    
+                        <li class="nav-item"><a href="gastronomia.html" title="GASTRONOMIA">GASTRONOMIA</a></li>
+    
+                        <li class="nav-item"><a href="contacto.html" title="CONTACTO"><span>CONTACTO</span></a></li>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+        
+</header> 
+<!-- fin de barra de navegaciony header-->
+
+    <section class="contacto__Container">
+        
+                    <!-- comienzo de titulo de formulario de contacto -->
+        <div>
+            <h1 class="contacto__Titulo">Contacto</h1>
+        </div>
+                    <!-- parrafo de formulario de contacto -->
+        <div class="parrafo mediaparrafos__Contacto">
+            <p>Antes que nada, gracias por querer contactarte con nosotros. Nos gusta cuando la gente que nos lee se comunica y rompe con el hechizo de la pantalla, y por eso leemos con atención cada mensaje. Sin embargo, y sobre todo cuando esamos de viaje, no podemos comprometernos a responder a todos los mails. Pesimoa disculpas por eso, pero el estado general de nuestra bandeja de entrada es siempre de inundación, y no nos da el tiempo para cumplir con todo. Mientras más breve el correo, más chances de que respondamos rápido 🙂</p>
+        </div>
+        
+        
+                     <!-- comienzo de formulario de contacto -->
+        <div class="contact_form">
+
+            <div class="formulario mediaencabezados__Contacto">      
+                <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                    
+                    
+                <form action="submeter-formulario.php" method="post">       
+                    
+                                
+                <p>
+                <label for="nombre" class="colocar_nombre">Nombre
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                                  
+                <p>
+                <label for="email" class="colocar_email">Email
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                                
+                <p>
+                <label for="telefone" class="colocar_telefono">Teléfono
+                </label>
+                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+                                  
+                <p>
+                <label for="website" class="colocar_website">Sitio web
+                </label>
+                <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>    
+                                  
+                <p>
+                <label for="asunto" class="colocar_asunto">Asunto
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+                                  
+                <p>
+                <label for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+                </label>                     
+                                                                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                                                    </p>                    
+                                  
+                
+                    <div class="botonera">
+                        <button class="boton" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p>
+                        </button>
+                        <button class="boton--limpiar" type="reset" name="limpiar_formulario" id="limpiar"><p>limpiar</p>
+                        </button>
+                    </div>
+            
+                    
+                <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+                                
+            </form>
+        </div>  
+    </div>
+                    
+</section>
+        
+        
+   <!-- inicio footer replicado del footer con barra de navecacion horizontal y redes sociales. propiedades del mismo al inicio del cass de las listas y propiedades de las redes en el footer css de index -->
+     <!-- inicio footer -->
+      <!-- inicio footer -->
+
+      <footer class="footerContainer">
+
+    
+    
+                    
+        <!-- COMIENZO BARRA DE NAVEGACION -->
+
+<div class="container-fluid">
+<nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container-fluid">
+        
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Menunavegacion">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="Menunavegacion" class="collapse navbar-collapse">
+            <ul id="efecthover" class="menuNavegacion navbar-nav ms-3">
+                <li class="nav-item"><a href='../index.html' title="Blog de viajes"><span>Blog de viajes</span></a></li>
+                <li class="nav-item"><a href='sobre-nosotros.html' title="SOBRE NOSOTROS"><span>SOBRE NOSOTROS</span></a></li>
+
+                <li class="nav-item"><a href="nuestroproyecto.html" title="NUESTRO PROYECTO"><span>NUESTRO PROYECTO</span></a></li>
+
+                <li class="nav-item"><a href="estuvimos-en.html" title="ESTUVIMOS EN"><span>ESTUVIMOS EN</span></a></li>
+
+                <li class="nav-item"><a href="gastronomia.html" title="GASTRONOMIA">GASTRONOMIA</a></li>
+
+                <li class="nav-item"><a href="contacto.html" title="CONTACTO"><span>CONTACTO</span></a></li>
+        </div>
+    </div>
+
+</nav>
+</div>
+
+
+<!-- fin de barra de navegacion-->
+  
+    <!-- inicio logos redes sociales -->
+    <div class="footer__redes">
+        <a title="instagram" href="https://www.instagram.com/viajeroscom/?hl=es"><img src="../root/assets/img/icono insta claro.png" width="40" height="40" alt="link instagram" /></a>
+        <a title="facebook" href="https://www.facebook.com/viajerosweb/"><img src="../root/assets/img/icono facebook claro.jpg" width="40" height="40" alt="link link facebook" /></a>
+    </div>  
+    <!-- fin de logos redes sociales -->
+   
+    <!-- fin de footer -->
+<h3 class="footer__webdesing">
+    ©2021 Partiendo al encuentro
+    WebDesign by Gaston Mendez Luna & Alejandra Salate</h3>
+
+   
+</footer>
+
+<!-- fin de footer -->
+
+    <!-- ENLACE JAVASCRIPT BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

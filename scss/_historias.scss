@@ -1,0 +1,56 @@
+
+
+.historias__Titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #feecaa;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    font-size: 250%;
+}
+
+.historias__Container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+
+    & .Historias__Img{
+        width: 50vw;
+        height: 40vh;
+        top: 5%; 
+      
+    }
+// AGREGADO HOVER A LA SECCION HISTORIAS DESDE UN IMPORT
+    & .imagen:hover {
+        filter: opacity(.5);
+    }
+
+
+    & .Historias__Text{
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        padding-bottom: 1vh;
+        font-weight: 600;
+        font-family: 'Yuji Syuku';
+        font-size: 130%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .mediaHistorias {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .mediaImghistorias{
+          width: 80vw;
+          height: 30vh;
+        }
+      } 
+}

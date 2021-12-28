@@ -1,0 +1,142 @@
+
+/* *****COMIENZO SECCION GASTRONOMIA*****/
+
+.gastronomiaContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    &.gastronomia__Video{
+    display: flex;
+    justify-content: center;
+      }
+
+
+    & h2.gastronomia__Titulo{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3rem;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    background-color: #feecaa;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-bottom: 3%;
+        
+    }
+
+    & .gastronomia__Subtitulos{
+    text-align: center;
+    font-size: 180%;
+    font-weight: 600;
+    width: 100vw;
+    background: #feecaa;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    }
+
+    & .gastronomia__Encabezados{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    }
+
+    & .gastronomia__Listas{
+      display: map-get($map: $estilos, $key: display );
+        justify-items: map-get($map: $estilos, $key: center);
+        width: map-get($map: $estilos, $key: ancho);
+        text-align: map-get($map: $estilos, $key: centro );
+        font-size: map-get($map: $estilos, $key: sizefuente );
+        color: map-get($map: $estilos, $key: color);
+        text-shadow: map-get($map: $estilos, $key:contorno);
+        margin: map-get($map: $estilos, $key: margen );
+        text-decoration: map-get($map: $estilos, $key: decoracion );
+        }
+        
+      
+
+
+
+    & .gastronomia__Parrafos{
+    width: 80%;
+    height: 40%;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+
+    & .parrafo__Uno{
+      @include parrafo();
+    }
+
+  
+
+/* *******RESPONSIVE GASTRONOMIA******** */
+@media only screen and (max-width: 600px) {
+    .media__Gastronomia{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+        
+    }
+    & .mediavideo__Gastronomia{
+      width: 90vw;
+      height: 40vh;
+    }
+    & .mediaTitulo__Gastronomia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 150%;
+     
+    }
+    
+    & .mediasubtitulos__Gastronomia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 130%;
+    }
+    & .mediaencabezados__Gastronomia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 150%;
+      font-weight: 700;
+      margin-top: 3%;
+    }
+    
+    & .mediaparrafos__Gastronomia{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: 40%;
+      font-size: 110%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      }
+    
+    }
+
+  }
+
+
+
+  

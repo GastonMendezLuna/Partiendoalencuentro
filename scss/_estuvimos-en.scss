@@ -1,0 +1,179 @@
+// MAPS
+$estilos: (
+  display: inline-block,
+  ancho: 100vw,
+  color: #feecaa,
+  centro: center,
+  sizefuente: 2rem,
+  contorno: (-1px 0 #000, 0 3px #000, 2px 0 #000, 0 -2px #000),
+  margen: 2% 0 2% 0,
+  decoracion: none,
+);
+
+.estuvimosenContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+    & .estuvimosen__Foto{
+        display: flex;
+        justify-content: center;
+      }
+    & .estuvimosen__Titulo{
+        display: flex;
+        font-size: 2.3rem;
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        background-color: #feecaa;
+        font-weight: 700;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        
+        }
+
+    & .estuvimosen__Subtitulos{
+        text-align: center;
+        font-size: 180%;
+        font-weight: 600;
+        width: 100vw;
+        background: #feecaa;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        }
+
+    & .estuvimosen__Encabezados{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        }
+// SE APLICO MAPA EN LAS LISTAS DE ESTUVIMOS EN PARA CAMBIAR ESTILOS Y AGREGAR UN TEXT-SHADOW
+    & .estuvimosen__Listas{
+        display: map-get($map: $estilos, $key: display );
+        justify-items: map-get($map: $estilos, $key: center);
+        width: map-get($map: $estilos, $key: ancho);
+        text-align: map-get($map: $estilos, $key: centro );
+        font-size: map-get($map: $estilos, $key: sizefuente );
+        color: map-get($map: $estilos, $key: color);
+        text-shadow: map-get($map: $estilos, $key:contorno);
+        margin: map-get($map: $estilos, $key: margen );
+        text-decoration: map-get($map: $estilos, $key: decoracion );
+        }
+    & .parrafo__Uno{
+      @include parrafo();
+    }
+        
+    & .estuvimosen__Parrafos{
+        width: 80%;
+        height: 40%;
+        font-size: 1.3rem;
+        text-align: justify;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        }
+
+/* *******RESPONSIVE ESTUVIMOS EN******** */
+@media only screen and (max-width: 600px) {
+    .media__Estuvimosen{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+        
+    }
+    & .mediaFoto__estuvimosen{
+      width: 90vw;
+      height: 40vh;
+    }
+    & .mediaTitulo__estuvimosen{
+      display: flex;
+      flex-flow: row wrap;
+     align-items: center;
+      text-align: center;
+      font-size: 2rem;
+     
+    }
+    
+    & .mediaSubtitulos__estuvimosen{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    & .mediaEncabezados__estuvimosen{
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: auto;
+      align-items: center;
+      text-align: center;
+      font-size: 1.2%;
+    }
+    
+    & .mediaParrafosestuvimosen{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: 40%;
+      font-size: 120%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      }
+    
+    & .media.Cards{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    
+      }
+    & .media__imgcards{
+        width: 90%;
+        height: 40%;
+    
+      }
+    }
+  }
+
+h3.estuvimosen__Subtitulos{
+    text-align: center;
+    font-size: 180%;
+    font-weight: 600;
+    width: 100vw;
+    background: #feecaa;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+  .ContainerCards{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+
+    & .cards__Lugares{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    & .cards__Img{
+    width: 300;
+    height: 200px;
+    }
+
+  }
+

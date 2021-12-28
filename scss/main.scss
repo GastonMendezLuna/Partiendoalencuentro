@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    color: black;
+    font-family: 'Yuji Syuku';
+    background-image: linear-gradient(to right, #757F9A , #D7DDE8 );
+    
+}
+
+// IMPORT INDEX
+@import "_index";
+
+// IMPORT HISTORIAS INDEX
+@import "_historias";
+
+// IMPORT SOBRE-NOSOTROS
+@import "_sobre-nosotros";
+
+// IMPORT NUESTRO PROYECTO
+@import "_nuestroproyecto";
+
+// IMPORT ESTUVIMOS-EN
+@import "_estuvimos-en";
+
+// IMPORT GASTRONOMIA CON MIXIN QUE SE UTILIZO EN CONTACTO
+@import "_gastronomia";
+
+// IMPORT VARIABLE INDEX Y CONTACTO
+@import "_contacto";
+
+

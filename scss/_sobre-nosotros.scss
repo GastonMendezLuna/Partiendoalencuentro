@@ -1,0 +1,89 @@
+
+// INICIO PAGINA SOBRE NOSOTROS
+
+.flexContainersobnos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+    & .titulo{
+        font-size: 1.8rem;
+        width: 100vw;
+        height: 10%;
+        text-align: center;
+        background-color: #feecaa;
+        
+        }
+    & .subtitulos{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 100%;
+        height: 10%;
+        background: #feecaa;
+        }
+
+    & .sobreNosotrosfoto{
+        align-content: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+            
+            }
+
+      & .parrafo__Uno{
+          @include parrafo();
+      }
+
+    & .parrafos{
+        width: 80%;
+        height: 40%;
+        font-size: 1.1rem;
+        text-align: justify;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        }
+
+    & .mapaNosotros{
+        width: 80vw;
+        height: 40vh;
+        margin-top: 3%;
+        margin-bottom: 3%;
+            
+        }
+      
+    /* *******RESPONSIBE SOBRE NOSOTROS******** */
+@media only screen and (max-width: 600px) {
+    .mediaNosotros {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      text-align: center;
+        
+    }
+    .mediaImgnosotros{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      width: 250px;
+      height: 150px;
+    }
+    .mediaTitulo{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      text-align: center;
+      font-size: 1.2rem;
+     
+    }
+    .mediaSubtitulos{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      text-align: center;
+      font-size: 1rem;
+    }
+    }
+  }
