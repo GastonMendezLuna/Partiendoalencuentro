@@ -448,32 +448,26 @@ h2.galeriavideoTitulo {
   margin-bottom: 3%;
 }
 @media only screen and (max-width: 600px) {
-  .flexContainersobnos .over {
-    overflow-x: hidden;
-  }
   .flexContainersobnos .mediaNosotros {
     display: flex;
-    flex-flow: column;
     justify-content: center;
     text-align: center;
+    overflow-x: hidden;
   }
   .flexContainersobnos .mediaImgnosotros {
     display: flex;
-    flex-flow: column;
     justify-content: center;
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 250px;
   }
   .flexContainersobnos .mediaTitulo {
     display: flex;
-    flex-flow: column;
     justify-content: center;
     text-align: center;
     font-size: 1.2rem;
   }
   .flexContainersobnos .mediaSubtitulos {
     display: flex;
-    flex-flow: column;
     justify-content: center;
     text-align: center;
     font-size: 1rem;
