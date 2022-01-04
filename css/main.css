@@ -997,6 +997,7 @@ h3.estuvimosen__Subtitulos {
     font-size: 150%;
     font-weight: 700;
     margin-top: 3%;
+    padding-right: 2rem;
   }
   .gastronomiaContainer .mediaparrafos__Gastronomia {
     display: flex;
