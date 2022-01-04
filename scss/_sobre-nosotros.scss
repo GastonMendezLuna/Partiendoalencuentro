@@ -4,11 +4,9 @@
 .flexContainersobnos{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
     align-items: center;
     text-align: center;
-    overflow-x: hidden;
 
     & .titulo{
       display: flex;
