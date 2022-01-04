@@ -56,22 +56,20 @@
       
     /* *******RESPONSIBE SOBRE NOSOTROS******** */
 @media only screen and (max-width: 600px) {
-    .over{
-      overflow-x: hidden;
-    }
     .mediaNosotros {
       display: flex;
       flex-flow: column;
       justify-content: center;
       text-align: center;
+      overflow-x: hidden;
         
     }
     .mediaImgnosotros{
       display: flex;
       flex-flow: column;
       justify-content: center;
-      width: 250px;
-      height: 150px;
+      width: 400px;
+      height: 250px;
     }
     .mediaTitulo{
       display: flex;
