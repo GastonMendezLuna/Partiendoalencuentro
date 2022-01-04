@@ -16,6 +16,7 @@ $estilos: (
     width: 100%;
     height: auto;
     align-items: center;
+    overflow-x: hidden;
 
     & .estuvimosen__Foto{
         display: flex;
@@ -87,6 +88,7 @@ $estilos: (
       flex-flow: column;
       justify-content: center;
       text-align: center;
+      overflow-x: hidden;
         
     }
     & .mediaFoto__estuvimosen{
