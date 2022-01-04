@@ -504,7 +504,6 @@ h2.galeriavideoTitulo {
 .nuestroproy__Container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 100%;
   align-items: center;
   text-align: center;
@@ -571,7 +570,6 @@ h2.galeriavideoTitulo {
     flex-flow: column;
     justify-content: center;
     text-align: center;
-    overflow-x: hidden;
   }
   .nuestroproy__Container .mediaFoto__nuestroproy {
     display: flex;
