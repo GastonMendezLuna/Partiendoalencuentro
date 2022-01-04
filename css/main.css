@@ -570,6 +570,7 @@ h2.galeriavideoTitulo {
     flex-flow: column;
     justify-content: center;
     text-align: center;
+    overflow-x: hidden;
   }
   .nuestroproy__Container .mediaFoto__nuestroproy {
     display: flex;
