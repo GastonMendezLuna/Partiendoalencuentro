@@ -157,20 +157,22 @@ body {
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  justify-content: center;
+  justify-items: center;
   top: 1rem;
   bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 2rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 .flex-containerBienvenida .parrafo__Uno :hover {
   border-radius: 30px;
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 .flex-containerBienvenida .flex-containerText {
   width: 75vw;
@@ -435,20 +437,22 @@ h2.galeriavideoTitulo {
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  justify-content: center;
+  justify-items: center;
   top: 1rem;
   bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 2rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 .flexContainersobnos .parrafo__Uno :hover {
   border-radius: 30px;
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 .flexContainersobnos .parrafos {
   width: 80%;
@@ -535,20 +539,22 @@ h2.galeriavideoTitulo {
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  justify-content: center;
+  justify-items: center;
   top: 1rem;
   bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 2rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 .nuestroproy__Container .parrafo__Uno :hover {
   border-radius: 30px;
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 .nuestroproy__Container .nuestroproy__Parrafos {
   width: 80%;
@@ -599,10 +605,11 @@ h2.galeriavideoTitulo {
     margin-bottom: 4%;
   }
   .nuestroproy__Container .mediaParrafosnuestroproy {
-    width: 80%;
-    height: 40%;
+    width: 90%;
+    height: auto;
     font-size: 120%;
     text-align: justify;
+    justify-content: center;
     margin-top: 4%;
     margin-bottom: 4%;
   }
@@ -674,20 +681,22 @@ h2.galeriavideoTitulo {
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  justify-content: center;
+  justify-items: center;
   top: 1rem;
   bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 2rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 .estuvimosenContainer .parrafo__Uno :hover {
   border-radius: 30px;
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 .estuvimosenContainer .estuvimosen__Parrafos {
   width: 80%;
@@ -860,20 +869,22 @@ h3.estuvimosen__Subtitulos {
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  justify-content: center;
+  justify-items: center;
   top: 1rem;
   bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 2rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 .gastronomiaContainer .parrafo__Uno :hover {
   border-radius: 30px;
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 @media only screen and (max-width: 600px) {
   .gastronomiaContainer .over {
@@ -952,20 +963,22 @@ h3.estuvimosen__Subtitulos {
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  justify-content: center;
+  justify-items: center;
   top: 1rem;
   bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 2rem;
-  padding: 2rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 .contacto__Container .parrafo :hover {
   border-radius: 30px;
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 .contacto__Container .contact_form {
   display: flex;
