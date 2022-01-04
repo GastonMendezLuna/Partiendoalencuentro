@@ -54,6 +54,9 @@
         font-size: 1.3rem;
         text-align: justify;
         background-image: linear-gradient(to right, #757F9A , #D7DDE8 );
+        :hover{
+          transition: 1s;
+        }
       }
 
     & .sobreNosotrosfoto{

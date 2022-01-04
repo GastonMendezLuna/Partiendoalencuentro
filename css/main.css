@@ -172,6 +172,7 @@ body {
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
+  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -450,6 +451,9 @@ h2.galeriavideoTitulo {
   text-align: justify;
   background-image: linear-gradient(to right, #757F9A, #D7DDE8);
 }
+.flexContainersobnos .bandoneon__Texto :hover {
+  transition: 1s;
+}
 .flexContainersobnos .sobreNosotrosfoto {
   align-content: center;
   margin-top: 4%;
@@ -475,6 +479,7 @@ h2.galeriavideoTitulo {
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
+  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -577,6 +582,7 @@ h2.galeriavideoTitulo {
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
+  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -719,6 +725,7 @@ h2.galeriavideoTitulo {
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
+  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -908,6 +915,7 @@ h3.estuvimosen__Subtitulos {
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
+  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -1000,6 +1008,7 @@ h3.estuvimosen__Subtitulos {
   -webkit-border-radius: 30px;
   box-shadow: 0px 0px 15px 15px black;
   -webkit-box-shadow: 0px 0px 15px 15px black;
+  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
