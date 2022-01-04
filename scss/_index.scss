@@ -170,6 +170,14 @@ $padding: 2rem;
       
   }
   
+  .flex-container__Index{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    overflow-x: hidden;
+  }
   
   .flex-containerBienvenida{
       display: flex;

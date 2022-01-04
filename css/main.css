@@ -125,6 +125,15 @@ body {
   max-width: 100%;
 }
 
+.flex-container__Index {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  overflow-x: hidden;
+}
+
 .flex-containerBienvenida {
   display: flex;
   flex-direction: column;
