@@ -508,6 +508,7 @@ h2.galeriavideoTitulo {
   width: 100%;
   align-items: center;
   text-align: center;
+  overflow-x: hidden;
   /* *******RESPONSIVE NUESTRO PROYECTO******** */
 }
 .nuestroproy__Container .nuestroproy__Titulo {
