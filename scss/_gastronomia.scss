@@ -40,6 +40,8 @@
     }
 
     & .containeracordion{
+      display: flex;
+      flex-direction: column;
       width: 100%;
       top: 4rem;
       bottom: 4rem;
@@ -132,9 +134,27 @@
       text-align: center;
       font-size: 130%;
     }
+    & .mediaencabezados__Gastronomia{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 150%;
+      font-weight: 700;
+      margin-top: 3%;
+    }
     
-    
-    
+    & .mediaparrafos__Gastronomia{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: 40%;
+      font-size: 110%;
+      text-justify: newspaper;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      padding-left: 2rem;
+      }
     
     }
 
