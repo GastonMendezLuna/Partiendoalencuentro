@@ -54,7 +54,13 @@ $padding: 2rem;
       }
   
       @media only screen and (max-width: 600px) {
- 
+      & .mediaindex{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      text-align: center;
+      overflow-x: hidden;
+      }
       & div.mediaLogouno {
             flex-direction: column;
             justify-content: start;

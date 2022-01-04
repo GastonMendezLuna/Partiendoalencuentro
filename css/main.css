@@ -33,6 +33,13 @@ body {
   right: 30px;
 }
 @media only screen and (max-width: 600px) {
+  .headerContainer > div:first-child:not(.container-fluid) .mediaindex {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden;
+  }
   .headerContainer > div:first-child:not(.container-fluid) div.mediaLogouno {
     flex-direction: column;
     justify-content: start;
