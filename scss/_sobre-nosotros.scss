@@ -58,6 +58,7 @@
 @media only screen and (max-width: 600px) {
     .mediaNosotros {
       display: flex;
+      width: 100%;
       justify-content: center;
       text-align: center;
       overflow-x: hidden;
@@ -67,7 +68,7 @@
       display: flex;
       justify-content: center;
       width: 350px;
-      height: 250px;
+      height: 200px;
     }
     .mediaTitulo{
       display: flex;
