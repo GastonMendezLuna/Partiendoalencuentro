@@ -58,7 +58,6 @@
 @media only screen and (max-width: 600px) {
     .mediaNosotros {
       display: flex;
-      flex-flow: column;
       justify-content: center;
       text-align: center;
       overflow-x: hidden;
@@ -66,14 +65,12 @@
     }
     .mediaImgnosotros{
       display: flex;
-      flex-flow: column;
       justify-content: center;
       width: 400px;
       height: 250px;
     }
     .mediaTitulo{
       display: flex;
-      flex-flow: column;
       justify-content: center;
       text-align: center;
       font-size: 1.2rem;
@@ -81,7 +78,6 @@
     }
     .mediaSubtitulos{
       display: flex;
-      flex-flow: column;
       justify-content: center;
       text-align: center;
       font-size: 1rem;
