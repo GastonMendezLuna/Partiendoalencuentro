@@ -18,6 +18,7 @@ body {
   border-top: 30px solid #feecaa;
   border-bottom: 30px solid #feecaa;
   margin-bottom: 40px;
+  overflow-x: hidden;
 }
 .headerContainer > div:first-child:not(.container-fluid) {
   width: 15vw;
@@ -32,9 +33,6 @@ body {
   right: 30px;
 }
 @media only screen and (max-width: 600px) {
-  .headerContainer > div:first-child:not(.container-fluid) .over {
-    overflow-x: hidden;
-  }
   .headerContainer > div:first-child:not(.container-fluid) div.mediaLogouno {
     flex-direction: column;
     justify-content: start;
