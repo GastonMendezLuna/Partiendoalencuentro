@@ -82,6 +82,9 @@ $estilos: (
 
 /* *******RESPONSIVE ESTUVIMOS EN******** */
 @media only screen and (max-width: 600px) {
+    .over{
+    overflow-x: hidden;
+    }
     .media__Estuvimosen{
       display: flex;
       flex-direction: column;

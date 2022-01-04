@@ -152,6 +152,9 @@
       }
     /* *******RESPONSIVE CONTACTO******** */
     @media only screen and (max-width: 600px) {
+        .over{
+        overflow-x: hidden;
+        }
         .media__Contactform{
           display: flex;
           flex-direction: column;

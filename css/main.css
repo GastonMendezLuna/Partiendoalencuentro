@@ -32,6 +32,9 @@ body {
   right: 30px;
 }
 @media only screen and (max-width: 600px) {
+  .headerContainer > div:first-child:not(.container-fluid) .over {
+    overflow-x: hidden;
+  }
   .headerContainer > div:first-child:not(.container-fluid) div.mediaLogouno {
     flex-direction: column;
     justify-content: start;
@@ -55,12 +58,14 @@ body {
   text-align: center;
   justify-content: center;
   font-size: 200%;
+  top: 1rem;
 }
 .headerContainer div.center h3.headerSubtitulo {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
   font-size: 150%;
+  top: 1rem;
 }
 .headerContainer img.headerLogodos {
   display: flex;
@@ -123,8 +128,8 @@ body {
   margin-top: 0;
 }
 .flex-containerBienvenida .flex-containerImgb {
-  width: 90vw;
-  height: 60vh;
+  width: 80vw;
+  height: 70vh;
 }
 @media only screen and (max-width: 600px) {
   .flex-containerBienvenida .mediaFotoindex {
@@ -134,14 +139,24 @@ body {
 }
 .flex-containerBienvenida .parrafo__Uno {
   display: flex;
-  width: 80vw;
+  width: 90vw;
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  top: 1rem;
+  bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 20px 0 20px 0;
-  padding: 20px 0 20px 0;
+  margin: 2rem;
+  padding: 2rem;
+}
+.flex-containerBienvenida .parrafo__Uno :hover {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  box-shadow: 0px 0px 15px 15px black;
+  -webkit-box-shadow: 0px 0px 15px 15px black;
+  padding: 2rem;
+  margin: 2rem;
 }
 .flex-containerBienvenida .flex-containerText {
   width: 75vw;
@@ -297,9 +312,19 @@ h2.galeriavideoTitulo {
   max-width: 100%;
 }
 .footerContainer .footer__redes {
+  display: flex;
   text-align: center;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 1rem;
   width: 100%;
-  height: 8%;
+  height: 10%;
+}
+.footerContainer .image:hover {
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  box-shadow: 15px 15px 15px 15px black;
+  -webkit-box-shadow: 0px 0px 15px 15px black;
 }
 .footerContainer .footer__webdesing {
   width: 100%;
@@ -389,14 +414,24 @@ h2.galeriavideoTitulo {
 }
 .flexContainersobnos .parrafo__Uno {
   display: flex;
-  width: 80vw;
+  width: 90vw;
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  top: 1rem;
+  bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 20px 0 20px 0;
-  padding: 20px 0 20px 0;
+  margin: 2rem;
+  padding: 2rem;
+}
+.flexContainersobnos .parrafo__Uno :hover {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  box-shadow: 0px 0px 15px 15px black;
+  -webkit-box-shadow: 0px 0px 15px 15px black;
+  padding: 2rem;
+  margin: 2rem;
 }
 .flexContainersobnos .parrafos {
   width: 80%;
@@ -413,6 +448,9 @@ h2.galeriavideoTitulo {
   margin-bottom: 3%;
 }
 @media only screen and (max-width: 600px) {
+  .flexContainersobnos .over {
+    overflow-x: hidden;
+  }
   .flexContainersobnos .mediaNosotros {
     display: flex;
     flex-flow: column;
@@ -473,14 +511,24 @@ h2.galeriavideoTitulo {
 }
 .nuestroproy__Container .parrafo__Uno {
   display: flex;
-  width: 80vw;
+  width: 90vw;
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  top: 1rem;
+  bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 20px 0 20px 0;
-  padding: 20px 0 20px 0;
+  margin: 2rem;
+  padding: 2rem;
+}
+.nuestroproy__Container .parrafo__Uno :hover {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  box-shadow: 0px 0px 15px 15px black;
+  -webkit-box-shadow: 0px 0px 15px 15px black;
+  padding: 2rem;
+  margin: 2rem;
 }
 .nuestroproy__Container .nuestroproy__Parrafos {
   width: 80%;
@@ -497,6 +545,9 @@ h2.galeriavideoTitulo {
   margin-bottom: 3%;
 }
 @media only screen and (max-width: 480px) {
+  .nuestroproy__Container .over {
+    overflow-x: hidden;
+  }
   .nuestroproy__Container .medianuestroProy {
     display: flex;
     flex-flow: column;
@@ -601,14 +652,24 @@ h2.galeriavideoTitulo {
 }
 .estuvimosenContainer .parrafo__Uno {
   display: flex;
-  width: 80vw;
+  width: 90vw;
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  top: 1rem;
+  bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 20px 0 20px 0;
-  padding: 20px 0 20px 0;
+  margin: 2rem;
+  padding: 2rem;
+}
+.estuvimosenContainer .parrafo__Uno :hover {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  box-shadow: 0px 0px 15px 15px black;
+  -webkit-box-shadow: 0px 0px 15px 15px black;
+  padding: 2rem;
+  margin: 2rem;
 }
 .estuvimosenContainer .estuvimosen__Parrafos {
   width: 80%;
@@ -619,6 +680,9 @@ h2.galeriavideoTitulo {
   margin-bottom: 2%;
 }
 @media only screen and (max-width: 600px) {
+  .estuvimosenContainer .over {
+    overflow-x: hidden;
+  }
   .estuvimosenContainer .media__Estuvimosen {
     display: flex;
     flex-direction: column;
@@ -769,16 +833,29 @@ h3.estuvimosen__Subtitulos {
 }
 .gastronomiaContainer .parrafo__Uno {
   display: flex;
-  width: 80vw;
+  width: 90vw;
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  top: 1rem;
+  bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 20px 0 20px 0;
-  padding: 20px 0 20px 0;
+  margin: 2rem;
+  padding: 2rem;
+}
+.gastronomiaContainer .parrafo__Uno :hover {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  box-shadow: 0px 0px 15px 15px black;
+  -webkit-box-shadow: 0px 0px 15px 15px black;
+  padding: 2rem;
+  margin: 2rem;
 }
 @media only screen and (max-width: 600px) {
+  .gastronomiaContainer .over {
+    overflow-x: hidden;
+  }
   .gastronomiaContainer .media__Gastronomia {
     display: flex;
     flex-direction: column;
@@ -848,14 +925,24 @@ h3.estuvimosen__Subtitulos {
 }
 .contacto__Container .parrafo {
   display: flex;
-  width: 80vw;
+  width: 90vw;
   height: auto;
   box-shadow: 3px 3px 15px 15px #feecaa;
   text-align: justify;
+  top: 1rem;
+  bottom: 2rem;
   font-size: 1.3rem;
   border-radius: 30px;
-  margin: 20px 0 20px 0;
-  padding: 20px 0 20px 0;
+  margin: 2rem;
+  padding: 2rem;
+}
+.contacto__Container .parrafo :hover {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  box-shadow: 0px 0px 15px 15px black;
+  -webkit-box-shadow: 0px 0px 15px 15px black;
+  padding: 2rem;
+  margin: 2rem;
 }
 .contacto__Container .contact_form {
   display: flex;
@@ -962,6 +1049,9 @@ h3.estuvimosen__Subtitulos {
   border: 1px solid black;
 }
 @media only screen and (max-width: 600px) {
+  .contacto__Container .over {
+    overflow-x: hidden;
+  }
   .contacto__Container .media__Contactform {
     display: flex;
     flex-direction: column;
