@@ -1027,7 +1027,7 @@ h3.estuvimosen__Subtitulos {
 .contacto__Container input {
   background-color: white;
   width: 40vw;
-  height: 5vh;
+  height: 8vh;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
@@ -1084,7 +1084,7 @@ h3.estuvimosen__Subtitulos {
   color: black;
 }
 .contacto__Container .aviso {
-  font-size: 13px;
+  font-size: 10px;
   color: black;
 }
 .contacto__Container h1 {
@@ -1099,7 +1099,7 @@ h3.estuvimosen__Subtitulos {
   color: black;
 }
 .contacto__Container p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: black;
 }
 .contacto__Container ::-webkit-input-placeholder {
