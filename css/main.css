@@ -807,6 +807,7 @@ h3.estuvimosen__Subtitulos {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  overflow-x: hidden;
   /* *******RESPONSIVE GASTRONOMIA******** */
 }
 .gastronomiaContainer.gastronomia__Video {
@@ -887,14 +888,12 @@ h3.estuvimosen__Subtitulos {
   margin: 1rem;
 }
 @media only screen and (max-width: 600px) {
-  .gastronomiaContainer .over {
-    overflow-x: hidden;
-  }
   .gastronomiaContainer .media__Gastronomia {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
+    overflow-x: hidden;
   }
   .gastronomiaContainer .mediavideo__Gastronomia {
     width: 90vw;

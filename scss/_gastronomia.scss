@@ -6,6 +6,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    overflow-x: hidden;
 
     &.gastronomia__Video{
     display: flex;
@@ -83,14 +84,13 @@
 
 /* *******RESPONSIVE GASTRONOMIA******** */
 @media only screen and (max-width: 600px) {
-    .over{
-    overflow-x: hidden;
-    }
+    
     .media__Gastronomia{
       display: flex;
       flex-direction: column;
       width: 100%;
       align-items: center;
+      overflow-x: hidden;
         
     }
     & .mediavideo__Gastronomia{
