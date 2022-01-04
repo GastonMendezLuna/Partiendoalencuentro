@@ -19,7 +19,7 @@
     flex-direction: column;
     font-size: 2.3rem;
     width: 100vw;
-    height: 15vh;
+    height: 10vh;
     text-align: center;
     background-color: #feecaa;
     font-weight: 700;
@@ -38,37 +38,6 @@
     margin-bottom: 2%;
     
     }
-
-    & .containeracordion{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      top: 4rem;
-      bottom: 4rem;
-      justify-items: center;
-      justify-content: center;
-    }
-
-    & .bandoneon{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      width: 100vw;
-      height: auto;
-      background-color: #feecaa;
-      text-align: justify;
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: black;
-      
-      }
-    
-    & .bandoneon__Texto{
-      font-size: 1.3rem;
-      text-align: justify;
-      background-image: linear-gradient(to right, #757F9A , #D7DDE8 );
-      
-      }
     
 
     & .gastronomia__Encabezados{
@@ -97,6 +66,17 @@
         
       
 
+
+
+    & .gastronomia__Parrafos{
+    width: 80%;
+    height: 40%;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+
     & .parrafo__Uno{
       @include parrafo();
     }
@@ -120,13 +100,10 @@
     }
     & .mediaTitulo__Gastronomia{
       display: flex;
-      width: 100vw;
-      height: 20%;
       flex-direction: column;
       align-items: center;
       text-align: center;
       font-size: 150%;
-      bottom: 5%;
      
     }
     
@@ -145,7 +122,6 @@
       font-size: 150%;
       font-weight: 700;
       margin-top: 3%;
-      padding-right: 5%;
     }
     
     & .mediaparrafos__Gastronomia{
@@ -154,10 +130,11 @@
       width: 90%;
       height: 40%;
       font-size: 110%;
-      text-justify: newspaper;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
       margin-top: 2%;
       margin-bottom: 2%;
-      padding-left: 5%;
       }
     
     }
