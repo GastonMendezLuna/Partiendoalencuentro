@@ -19,7 +19,7 @@
     flex-direction: column;
     font-size: 2.3rem;
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     text-align: center;
     background-color: #feecaa;
     font-weight: 700;
@@ -120,10 +120,13 @@
     }
     & .mediaTitulo__Gastronomia{
       display: flex;
+      width: 100vw;
+      height: 20%;
       flex-direction: column;
       align-items: center;
       text-align: center;
       font-size: 150%;
+      bottom: 5%;
      
     }
     
@@ -142,7 +145,7 @@
       font-size: 150%;
       font-weight: 700;
       margin-top: 3%;
-      padding-right: 2rem;
+      padding-right: 5%;
     }
     
     & .mediaparrafos__Gastronomia{
@@ -154,7 +157,7 @@
       text-justify: newspaper;
       margin-top: 2%;
       margin-bottom: 2%;
-      padding-left: 3%;
+      padding-left: 5%;
       }
     
     }

@@ -876,7 +876,7 @@ h3.estuvimosen__Subtitulos {
   flex-direction: column;
   font-size: 2.3rem;
   width: 100vw;
-  height: 10vh;
+  height: 15vh;
   text-align: center;
   background-color: #feecaa;
   font-weight: 700;
@@ -977,10 +977,13 @@ h3.estuvimosen__Subtitulos {
   }
   .gastronomiaContainer .mediaTitulo__Gastronomia {
     display: flex;
+    width: 100vw;
+    height: 20%;
     flex-direction: column;
     align-items: center;
     text-align: center;
     font-size: 150%;
+    bottom: 5%;
   }
   .gastronomiaContainer .mediasubtitulos__Gastronomia {
     display: flex;
@@ -997,7 +1000,7 @@ h3.estuvimosen__Subtitulos {
     font-size: 150%;
     font-weight: 700;
     margin-top: 3%;
-    padding-right: 2rem;
+    padding-right: 5%;
   }
   .gastronomiaContainer .mediaparrafos__Gastronomia {
     display: flex;
@@ -1008,7 +1011,7 @@ h3.estuvimosen__Subtitulos {
     text-justify: newspaper;
     margin-top: 2%;
     margin-bottom: 2%;
-    padding-left: 3%;
+    padding-left: 5%;
   }
 }
 
