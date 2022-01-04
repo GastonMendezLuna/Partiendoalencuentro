@@ -39,6 +39,36 @@
     
     }
 
+    & .containeracordion{
+      width: 100%;
+      top: 4rem;
+      bottom: 4rem;
+      justify-items: center;
+      justify-content: center;
+    }
+
+    & .bandoneon{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100vw;
+      height: auto;
+      background-color: #feecaa;
+      text-align: justify;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: black;
+      
+      }
+    
+    & .bandoneon__Texto{
+      font-size: 1.3rem;
+      text-align: justify;
+      background-image: linear-gradient(to right, #757F9A , #D7DDE8 );
+      
+      }
+    
+
     & .gastronomia__Encabezados{
     display: flex;
     flex-direction: column;
@@ -64,17 +94,6 @@
         }
         
       
-
-
-
-    & .gastronomia__Parrafos{
-    width: 80%;
-    height: 40%;
-    font-size: 1.3rem;
-    text-align: justify;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    }
 
     & .parrafo__Uno{
       @include parrafo();

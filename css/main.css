@@ -600,6 +600,32 @@ h2.galeriavideoTitulo {
   margin-top: 3%;
   margin-bottom: 3%;
 }
+.nuestroproy__Container .containeracordion {
+  width: 100%;
+  top: 4rem;
+  bottom: 4rem;
+  justify-items: center;
+}
+.nuestroproy__Container .bandoneon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: auto;
+  background-color: #feecaa;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+.nuestroproy__Container .bandoneon__Texto {
+  font-size: 1.3rem;
+  text-align: justify;
+  background-image: linear-gradient(to right, #757F9A, #D7DDE8);
+}
+.nuestroproy__Container .bandoneon__Texto :hover {
+  transition: 1s;
+}
 @media only screen and (max-width: 600px) {
   .nuestroproy__Container .medianuestroProy {
     display: flex;
@@ -866,6 +892,30 @@ h3.estuvimosen__Subtitulos {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+.gastronomiaContainer .containeracordion {
+  width: 100%;
+  top: 4rem;
+  bottom: 4rem;
+  justify-items: center;
+  justify-content: center;
+}
+.gastronomiaContainer .bandoneon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: auto;
+  background-color: #feecaa;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+.gastronomiaContainer .bandoneon__Texto {
+  font-size: 1.3rem;
+  text-align: justify;
+  background-image: linear-gradient(to right, #757F9A, #D7DDE8);
+}
 .gastronomiaContainer .gastronomia__Encabezados {
   display: flex;
   flex-direction: column;
@@ -886,14 +936,6 @@ h3.estuvimosen__Subtitulos {
   text-shadow: -1px 0 #000, 0 3px #000, 2px 0 #000, 0 -2px #000;
   margin: 2% 0 2% 0;
   text-decoration: none;
-}
-.gastronomiaContainer .gastronomia__Parrafos {
-  width: 80%;
-  height: 40%;
-  font-size: 1.3rem;
-  text-align: justify;
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 .gastronomiaContainer .parrafo__Uno {
   display: flex;
