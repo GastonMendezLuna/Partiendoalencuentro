@@ -310,17 +310,18 @@ $padding: 2rem;
             flex-direction: column;
             flex-wrap: wrap;
             width: 100vw;
-            height: auto;
-            justify-content: space-around;
+            height: 150vh;
+            justify-content: space-between;
             align-content: center;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
+            padding-bottom: 4vh;
         }
           .mediaGaleria__videos{
             display: flex;
             flex-direction: column;
-            width: 95%;
-            height: 40%;
+            width: 400px;
+            height: 300px;
             
         
           }
