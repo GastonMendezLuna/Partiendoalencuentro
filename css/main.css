@@ -156,8 +156,7 @@ body {
   display: flex;
   width: 90vw;
   height: auto;
-  box-shadow: 3px 3px 15px 15px #feecaa;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   justify-items: center;
   top: 2rem;
@@ -166,13 +165,6 @@ body {
   border-radius: 30px;
   margin: 2rem;
   padding: 2rem;
-}
-.flex-containerBienvenida .parrafo__Uno :hover {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  box-shadow: 0px 0px 15px 15px black;
-  -webkit-box-shadow: 0px 0px 15px 15px black;
-  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -449,7 +441,7 @@ h2.galeriavideoTitulo {
 }
 .flexContainersobnos .bandoneon__Texto {
   font-size: 1.3rem;
-  text-align: justify;
+  text-align: center;
   background-image: linear-gradient(to right, #757F9A, #D7DDE8);
 }
 .flexContainersobnos .bandoneon__Texto :hover {
@@ -464,8 +456,7 @@ h2.galeriavideoTitulo {
   display: flex;
   width: 90vw;
   height: auto;
-  box-shadow: 3px 3px 15px 15px #feecaa;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   justify-items: center;
   top: 2rem;
@@ -474,13 +465,6 @@ h2.galeriavideoTitulo {
   border-radius: 30px;
   margin: 2rem;
   padding: 2rem;
-}
-.flexContainersobnos .parrafo__Uno :hover {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  box-shadow: 0px 0px 15px 15px black;
-  -webkit-box-shadow: 0px 0px 15px 15px black;
-  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -488,7 +472,7 @@ h2.galeriavideoTitulo {
   width: 80%;
   height: 40%;
   font-size: 1.3rem;
-  text-align: justify;
+  text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -567,8 +551,7 @@ h2.galeriavideoTitulo {
   display: flex;
   width: 90vw;
   height: auto;
-  box-shadow: 3px 3px 15px 15px #feecaa;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   justify-items: center;
   top: 2rem;
@@ -577,13 +560,6 @@ h2.galeriavideoTitulo {
   border-radius: 30px;
   margin: 2rem;
   padding: 2rem;
-}
-.nuestroproy__Container .parrafo__Uno :hover {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  box-shadow: 0px 0px 15px 15px black;
-  -webkit-box-shadow: 0px 0px 15px 15px black;
-  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -591,7 +567,7 @@ h2.galeriavideoTitulo {
   width: 80%;
   height: 40%;
   font-size: 1.3rem;
-  text-align: justify;
+  text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -614,14 +590,14 @@ h2.galeriavideoTitulo {
   width: 100vw;
   height: auto;
   background-color: #feecaa;
-  text-align: justify;
+  text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
   color: black;
 }
 .nuestroproy__Container .bandoneon__Texto {
   font-size: 1.3rem;
-  text-align: justify;
+  text-align: center;
   background-image: linear-gradient(to right, #757F9A, #D7DDE8);
 }
 .nuestroproy__Container .bandoneon__Texto :hover {
@@ -665,7 +641,7 @@ h2.galeriavideoTitulo {
     width: 90%;
     height: auto;
     font-size: 120%;
-    text-align: justify;
+    text-align: center;
     justify-content: center;
     margin-top: 4%;
     margin-bottom: 4%;
@@ -736,8 +712,7 @@ h2.galeriavideoTitulo {
   display: flex;
   width: 90vw;
   height: auto;
-  box-shadow: 3px 3px 15px 15px #feecaa;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   justify-items: center;
   top: 2rem;
@@ -746,13 +721,6 @@ h2.galeriavideoTitulo {
   border-radius: 30px;
   margin: 2rem;
   padding: 2rem;
-}
-.estuvimosenContainer .parrafo__Uno :hover {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  box-shadow: 0px 0px 15px 15px black;
-  -webkit-box-shadow: 0px 0px 15px 15px black;
-  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -760,7 +728,7 @@ h2.galeriavideoTitulo {
   width: 80%;
   height: 40%;
   font-size: 1.3rem;
-  text-align: justify;
+  text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -918,7 +886,7 @@ h3.estuvimosen__Subtitulos {
   width: 80%;
   height: 40%;
   font-size: 1.3rem;
-  text-align: justify;
+  text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -926,8 +894,7 @@ h3.estuvimosen__Subtitulos {
   display: flex;
   width: 90vw;
   height: auto;
-  box-shadow: 3px 3px 15px 15px #feecaa;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   justify-items: center;
   top: 2rem;
@@ -936,13 +903,6 @@ h3.estuvimosen__Subtitulos {
   border-radius: 30px;
   margin: 2rem;
   padding: 2rem;
-}
-.gastronomiaContainer .parrafo__Uno :hover {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  box-shadow: 0px 0px 15px 15px black;
-  -webkit-box-shadow: 0px 0px 15px 15px black;
-  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }
@@ -1019,8 +979,7 @@ h3.estuvimosen__Subtitulos {
   display: flex;
   width: 90vw;
   height: auto;
-  box-shadow: 3px 3px 15px 15px #feecaa;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   justify-items: center;
   top: 2rem;
@@ -1029,13 +988,6 @@ h3.estuvimosen__Subtitulos {
   border-radius: 30px;
   margin: 2rem;
   padding: 2rem;
-}
-.contacto__Container .parrafo :hover {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  box-shadow: 0px 0px 15px 15px black;
-  -webkit-box-shadow: 0px 0px 15px 15px black;
-  transition: 0.7s;
   padding: 2rem;
   margin: 2rem;
 }

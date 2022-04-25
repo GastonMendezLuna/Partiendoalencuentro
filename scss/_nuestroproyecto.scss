@@ -41,7 +41,7 @@
         width: 80%;
         height: 40%;
         font-size: 1.3rem;
-        text-align: justify;
+        text-align: center;
         margin-top: 2%;
         margin-bottom: 2%;
         }
@@ -68,7 +68,7 @@
           width: 100vw;
           height: auto;
           background-color: #feecaa;
-          text-align: justify;
+          text-align: center;
           font-size: 1.5rem;
           font-weight: 600;
           color: black;
@@ -77,7 +77,7 @@
         
         & .bandoneon__Texto{
           font-size: 1.3rem;
-          text-align: justify;
+          text-align: center;
           background-image: linear-gradient(to right, #757F9A , #D7DDE8 );
           :hover{
             transition: 1s;
@@ -129,7 +129,7 @@
       width: 90%;
       height: auto;
       font-size: 120%;
-      text-align: justify;
+      text-align: center;
       justify-content: center;
       margin-top: 4%;
       margin-bottom: 4%;
